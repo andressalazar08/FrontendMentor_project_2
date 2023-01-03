@@ -1,0 +1,83 @@
+/*- 
+Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+/*
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+/*font-family: 'Fraunces', serif;*/
+
+:root{
+
+   /*    ### Primary  */
+
+--Dark-cyan: hsl(158, 36%, 37%);
+--Cream:hsl(30, 38%, 92%);
+
+
+  /*    ### Neutral  */
+
+--Very-dark-blue: hsl(212, 21%, 14%);
+--Dark-grayish-blue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+
+}
+
+
+html {
+font-size: 62.5%; /* 16px * 0.625 = 10px; */
+}
+
+body{
+    background-color: var(--Cream);
+}
+/*Estilos para el encabezado categoría del producto*/
+.category{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:0.3125rem;
+    font-weight: 100;
+}
+
+
+/*Estilos para el titulo del producto*/
+
+.title{
+    font-family: 'Fraunces', serif;
+}
+
+/*Estilo para el parrafo de la descripción*/
+/*- Font size (paragraph): 14px*/
+p{
+font-size: 0.875rem;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Estilo para el nuevo precio*/
+.newPrice{
+color: var(--Dark-cyan);
+}
+
+/*Estilo para el viejo precio*/
+.oldPrice{
+    color: var(--Dark-grayish-blue);
+
+}
+
+/*Estilo para el botón*/
+
+.btn{
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+}
+
+.attribution { font-size: 0.6875rem; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }

@@ -93,10 +93,10 @@ p{
 
 /*Estilos para la tarjeta*/
 .card{
-    position: relative;
+
     max-width: 500px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 /*Estilos para la imagen*/
